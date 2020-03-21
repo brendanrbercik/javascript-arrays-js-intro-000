@@ -26,10 +26,12 @@ function destructivelyAddElementToEndOfArray (array, element) {
 
 function removeElementFromBeginningOfArray (array) {
   array.slice(1);
+  array;
 }
 
 function removeElementFromEndOfArray (array) {
   array.slice(-1);
+  array;
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (array) {
